@@ -1,0 +1,32 @@
+body{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+.pog-color{
+    background-color: rgb(0, 0, 0);
+    line-height: 3;
+    color: white;
+}
+
+#p-style{
+    font-weight: 600;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#ama{
+    color: yellow
+}
+#verm{
+    color: red;
+}
+#marr{
+    color: brown;
+}
