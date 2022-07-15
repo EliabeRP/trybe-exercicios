@@ -1,0 +1,27 @@
+div:nth-child(3):hover{
+    border: 2px solid red;
+    font-style: italic;
+}
+
+div:nth-child(4):hover{
+    border: 2px solid blue;
+}
+
+div:nth-child(5):hover{
+    border: 2px solid green;
+    margin: 20px;
+    font-style: italic;
+}
+
+div:nth-child(6):hover{
+    border: 2px solid black;
+}
+
+div:nth-child(7):hover{
+    border: 2px solid yellow;
+    font-style: italic;
+}
+
+h3{
+    font-family: sans-serif;
+}

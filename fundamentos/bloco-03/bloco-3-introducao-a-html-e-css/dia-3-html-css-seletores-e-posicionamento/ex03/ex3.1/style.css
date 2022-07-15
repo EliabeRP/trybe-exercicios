@@ -1,0 +1,16 @@
+h1, p{
+    text-align: center;
+}
+
+ol:hover {
+    background-color: azure;
+}
+
+li:active{
+    color: rgb(146, 143, 143);
+    font-family: sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
