@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(34, 31, 31);
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.navbar{
+    
+    background-color: rgb(92, 100, 100);
+    height: 50px;
+    border: 1px solid;
+}
+
+.navbar ul li{
+    display: inline;
+    margin-right: 50px;
+    
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
