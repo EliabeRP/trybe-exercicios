@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: white;
+    display: inline-block; 
+    overflow:initial;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(34, 31, 31);
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+main{
+    margin-left: 25%;
+    background-color: rgb(242, 242, 242);
+    height: 100%;
+    border: 1px solid red;
+    display: inline-block;
+    flex: 1;
+}
+
+.navbar{
+    
+    background-color: rgb(29, 26, 26);
+    height: 50px;
+    border: 1px solid;
+ 
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 50px;
+    height: 32px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.navbar ul li:hover{
+    border-bottom: 3px solid red;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+
+
+h3{
+    text-align: center;
+}
+
+.container{
+    align-items: center;
+}
+
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+.head{
+    background-color:rgb(225, 92, 92);
+    color: white;
+}
+
+.visao h3{
+    margin-top: 70px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+
+aside{
+    height: 40vh;
+    width: 30vh;
+    display: block;
+    float: right;
+ 
+
+    border: 1px solid red;
+}
+
+footer{
+    color: white;
+    background-color: rgb(27, 27, 27);
+    height: 100px;
+    text-align: center;
+}
+
+footer p{
+    padding: 25px;
+}
