@@ -49,13 +49,14 @@ main{
 }
 
 
-h2{
+h3{
     text-align: center;
 }
 
 .container{
     align-items: center;
 }
+
 td {
     border: 1px solid black;
     width: 100px;
