@@ -1,7 +1,10 @@
 body{
     margin: 0%;
+    width: 100%;
     font-family: sans-serif;
     background-color: white;
+    display: inline-block; 
+    overflow:initial;
 }
 
 h1{
@@ -15,9 +18,11 @@ h1{
 
 main{
     margin-left: 25%;
-    margin-right: 25%;
     background-color: rgb(242, 242, 242);
     height: 100%;
+    border: 1px solid red;
+    display: inline-block;
+    flex: 1;
 }
 
 .navbar{
@@ -77,4 +82,26 @@ td {
 img{
     display: block;
     margin: auto;
+}
+
+
+aside{
+    height: 40vh;
+    width: 30vh;
+    display: block;
+    float: right;
+ 
+
+    border: 1px solid red;
+}
+
+footer{
+    color: white;
+    background-color: rgb(27, 27, 27);
+    height: 100px;
+    text-align: center;
+}
+
+footer p{
+    padding: 25px;
 }
