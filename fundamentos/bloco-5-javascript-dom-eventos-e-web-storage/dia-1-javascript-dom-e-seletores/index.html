@@ -76,6 +76,15 @@
             document.querySelector(texto).innerText = 'Exercício 5.1 - JavaScript'
         }
         corrigirTexto('.title')
+
+        function mudaParaMaiusculo(tag) {
+            let itens = document.querySelectorAll(tag)
+            for(let item of itens){
+                item.innerText = (item.innerText).toUpperCase()
+            }
+        }
+        mudaParaMaiusculo('p')
+        
     </script>
   </body>
 </html>
