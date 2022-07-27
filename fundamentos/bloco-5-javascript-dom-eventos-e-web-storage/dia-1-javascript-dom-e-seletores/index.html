@@ -84,6 +84,14 @@
             }
         }
         mudaParaMaiusculo('p')
+
+        function exibeNoConsole(tag) {
+            let itens = document.querySelectorAll(tag)
+            for(let item of itens){
+                console.log(item.innerText)
+            }
+        }
+        exibeNoConsole('p')
         
     </script>
   </body>
