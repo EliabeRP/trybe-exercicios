@@ -60,7 +60,7 @@
 
       //Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
       let titulo = document.createElement('h1');
-      titulo.innerText = "Exercício 5.2 - JavaScript DOM"
+      titulo.innerText = 'Exercício 5.2 - JavaScript DOM'
       let onde = document.getElementsByTagName('body')[0]
       onde.appendChild(titulo)
 
@@ -73,6 +73,21 @@
       let secao = document.createElement('section')
       secao.className = 'center-content'
       principal.appendChild(secao)
+
+      //Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+      let paragrafo = document.createElement('p')
+      paragrafo.innerText = 'Texto Texto Texto'
+      secao.appendChild(paragrafo)
+
+      //Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+      let secaoEsquerda = document.createElement('section')
+      secaoEsquerda.className = 'left-content'
+      principal.appendChild(secaoEsquerda)
+
+      //Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+      let secaoDireita = document.createElement('section')
+      secaoDireita.className = 'right-content'
+      principal.appendChild(secaoDireita)
     </script>
   </body>
 </html>
