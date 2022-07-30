@@ -41,13 +41,34 @@ function createDaysOfTheWeek() {
 
   criaBotaoFeriados('Feriados')
 
-  let element = document.querySelector('#btn-holiday');
+  let feriado = document.querySelector('#btn-holiday');
 
-  element.addEventListener('click', ()=>{
+  feriado.addEventListener('click', ()=>{
     let feriados = document.querySelectorAll('.holiday');
 
     for (let feriado of feriados){
         feriado.style.backgroundColor = 'blue'
     }
   })
+  
+  function criaBotaoSextaFeira(string) {
+    let parent = document.querySelector('.buttons-container');
+    let button = document.createElement('button');
+    button.setAttribute('id', 'btn-friday');
+    button.innerText = string;
+    parent.appendChild(button);
+  }
+
+  criaBotaoSextaFeira('Sexta-feira')
+
+  let sexta = document.querySelector('#btn-friday')
+
+  sexta.addEventListener('click', ()=>{
+    let sextas = document.querySelectorAll('.friday');
+
+    for (let day of sextas){
+        day.innerText = 'SEXTA-FEIRA'
+    }
+  })
+
   
