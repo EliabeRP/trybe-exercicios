@@ -31,4 +31,12 @@ function createDaysOfTheWeek() {
 
   }
 
-  
+  function criaBotaoFeriados(string) {
+    let parent = document.querySelector('.buttons-container');
+    let button = document.createElement('button');
+    button.setAttribute('id', 'btn-holiday');
+    button.innerText = string;
+    parent.appendChild(button);
+  }
+
+  criaBotaoFeriados('Feriados')
