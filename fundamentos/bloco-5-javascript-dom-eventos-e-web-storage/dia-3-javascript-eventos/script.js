@@ -40,3 +40,14 @@ function createDaysOfTheWeek() {
   }
 
   criaBotaoFeriados('Feriados')
+
+  let element = document.querySelector('#btn-holiday');
+
+  element.addEventListener('click', ()=>{
+    let feriados = document.querySelectorAll('.holiday');
+
+    for (let feriado of feriados){
+        feriado.style.backgroundColor = 'blue'
+    }
+  })
+  
