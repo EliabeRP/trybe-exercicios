@@ -80,3 +80,42 @@ function createDaysOfTheWeek() {
     let day = event.target;
     day.style.transform = 'scale(1)' 
   })
+
+  function criaTarefa(string) {
+    let parent = document.querySelector('.my-tasks')
+    let span = document.createElement('span')
+    span.innerText = string
+
+    parent.appendChild(span)
+  }
+
+  function CorTarefa(cor) {
+    let parent = document.querySelector('.my-tasks')
+    let div = document.createElement('div')
+    div.className = 'task'
+    div.style.backgroundColor = cor
+
+    parent.appendChild(div)
+  }
+
+  criaTarefa('Cozinhar')
+  CorTarefa('green')
+
+  task = document.querySelector('.my-tasks')
+
+  task.addEventListener('click', (event)=>{
+    let element = event.target;
+    if (element.className === 'task'){
+      element.className = 'task selected'
+    } else if (element.className === 'task selected'){
+      element.className = 'task'
+    }
+  })
+
+  days.addEventListener('click', (event)=>{
+    let day = event.target;
+    let task = document.querySelector('.selected')
+    let color = task.style.backgroundColor;
+
+    day.style.backgroundColor = color;
+  })
