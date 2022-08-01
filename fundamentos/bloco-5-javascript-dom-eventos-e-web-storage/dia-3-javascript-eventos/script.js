@@ -71,4 +71,12 @@ function createDaysOfTheWeek() {
     }
   })
 
-  
+  days.addEventListener('mouseover', (event)=>{
+    let day = event.target;
+    day.style.transform = 'scale(1.25)' 
+  })
+
+  days.addEventListener('mouseout', (event)=>{
+    let day = event.target;
+    day.style.transform = 'scale(1)' 
+  })
