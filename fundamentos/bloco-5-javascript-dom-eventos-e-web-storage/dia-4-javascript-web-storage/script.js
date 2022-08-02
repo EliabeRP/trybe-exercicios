@@ -43,5 +43,11 @@ spacing.addEventListener('input', ()=>{
 })
 
 
+let fontFamily = document.getElementById('fontFamily')
 
+fontFamily.addEventListener('click', ()=>{
+    let valor = fontFamily.value
+    localStorage.setItem('fontFamily', valor)
+    document.body.style.fontFamily = localStorage.fontFamily
+})
 
