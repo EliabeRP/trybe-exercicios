@@ -23,6 +23,7 @@ corDoTexto.addEventListener('click', ()=>{
     document.body.style.color = localStorage.textColor
 })
 
+
 let fontSize = document.getElementById('fontSize')
 
 fontSize.addEventListener('input', ()=>{
@@ -30,5 +31,17 @@ fontSize.addEventListener('input', ()=>{
     localStorage.setItem('fontSize', valor)
     document.body.style.fontSize = localStorage.fontSize
 })
+
+let spacing = document.getElementById('spacing')
+
+
+spacing.addEventListener('input', ()=>{
+    let valor = spacing.value
+    localStorage.setItem('spacing', valor)
+    document.body.style.lineHeight = localStorage.spacing
+
+})
+
+
 
 
