@@ -15,5 +15,12 @@ lightMode.addEventListener('click', ()=>{
     document.body.style.backgroundColor = localStorage.color
 })
 
+let corDoTexto = document.getElementById('textColor')
+
+corDoTexto.addEventListener('click', ()=>{
+    let valor = corDoTexto.value
+    localStorage.setItem('textColor', valor)
+    document.body.style.color = localStorage.textColor
+})
 
 
