@@ -23,4 +23,12 @@ corDoTexto.addEventListener('click', ()=>{
     document.body.style.color = localStorage.textColor
 })
 
+let fontSize = document.getElementById('fontSize')
+
+fontSize.addEventListener('input', ()=>{
+    let valor = fontSize.value
+    localStorage.setItem('fontSize', valor)
+    document.body.style.fontSize = localStorage.fontSize
+})
+
 
