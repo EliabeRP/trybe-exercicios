@@ -11,7 +11,7 @@
     <header>
         <h1>Hearder da página</h1>
     </header>
-    <form action="" method="GET">
+    <form action="" method="GET" id="form">
         <div class="info-pessoal">
             <label for="nome">Nome: </label>
             <input type="text" name="name" id="nome" minlength="10" maxlength="40">
@@ -51,7 +51,9 @@
             <label for="permissao">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
         </div>
 
-        <button type="submit"></button>
+        <button type="submit" id="enviar">Enviar</button>
+        <br>
+        <button id="limpar">Resetar</button>
     </form>
     <script src="script.js"></script>
 </body>
