@@ -1,0 +1,7 @@
+#buttons {
+    display: flex;
+}
+
+#enviar {
+    margin-right: 25px;
+}
